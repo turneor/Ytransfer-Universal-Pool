@@ -5,10 +5,10 @@
 "symbol": "YTR",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinUnits": 100000000,
+"coinUnits": 18000000,
 
 /* Coin network time to mine one block, see DIFFICULTY_TARGET constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinDifficultyTarget": 120,
+"coinDifficultyTarget": 240,
 
 "logging": {
 
@@ -149,13 +149,13 @@
     "port": 8117,
     "blocks": 30, //amount of blocks to send at a time
     "payments": 30, //amount of payments to send at a time
-    "password": "floresti" //password required for admin stats
+    "password": "solo" //password required for admin stats
 },
 
 /* Coin daemon connection details. */
 "daemon": {
     "host": "127.0.0.1",
-    "port": 32888
+    "port": 24859
 },
 
 /* Wallet daemon connection details. */
